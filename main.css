@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700&display=swap&subset=latin-ext');
+body{
+	padding: 0;
+	margin: 0;
+	background-image: url(img/bg-2.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+header {
+	font-family: "Quicksand", sans-serif;
+}
+a:link{
+		text-decoration: none;
+}
+li a{
+	color: #414040;
+	padding-right: 40px;
+}
+ul {
+  display: inline-block;
+  margin-left: 40%;
+  padding: 0;
+}
+li{
+  display: inline-block;
+	
+}
+.home{
+	color: #0f7bff;
+}
+.logo {
+	background-color: #0f7bff;
+	color: white;
+	font-size: 2.5em;
+	font-weight: 900; 
+	margin-left: 7%;
+	border-radius: 18%;
+	padding: 2% 0.3% 1.5% 0.3% ;
+}
+.btn{
+	color: white;
+	background-color: #0063dd;
+	padding: 1em 3em 1em 3em;
+	border-radius: 50px;
+}
+/*.col {
+	background-color: silver;
+	border: 1px solid black;
+}*/
+h1{
+	font-weight: 900;
+	margin-top: 0.9em;
+}
+h1, p {
+	text-align: center;
+	line-height: 2em;
+}
+p{
+	color: #929292;
+	padding-left: 30%;
+	padding-right: 30%;
+}
+
+.btn2{
+	background-color: rgba(0, 0, 0, 0);
+	border: 2px solid #0063dd;
+	color: #0063dd;
+	font-weight: bold;
+	margin-left: 1.5%;
+}
+
+.device{
+	margin-top: 4%;
+}
+
+
+
