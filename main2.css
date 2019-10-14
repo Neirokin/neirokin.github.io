@@ -320,13 +320,13 @@ footer.home-footer a:hover{
 	text-decoration: underline;
 }
 input::-moz-placeholder{
-	color: white !important;
+	color: gray !important;
 }
 input::-ms-input-placeholder{
-	color: white !important;
+	color: gray !important;
 }
 input::-webkit-input-placeholder{
-	color: white !important;
+	color: gray !important;
 }
 .btn-white{
 	background-color: white;
