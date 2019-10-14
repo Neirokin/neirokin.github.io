@@ -4,24 +4,38 @@
 		margin: auto;
 	}
 	.nav-item{
-	 margin-right: 60%;
+	 margin-right: 50%;
+		margin-left: 10%;
 	}
 	#btn-SignUp{
-		margin: 0;
+		margin: 0 auto;
 		margin-right: 47%;
 	}
 	.footer-nav{
 		font-size: 0.9rem;
+		margin-left: 4%;
+
 	}
 	div.features-card-2{
 		top: 50rem !important;
 	}
+	footer.home-footer .toTop{
+	background-color: white;
+	color: #0f7bff;
+  top: 323%;
+}
+
 }
 
 @media (max-width: 1200px){
 	.sidebar{
 			margin-bottom: 10%;
 		}
+}
+@media (max-width: 992px){
+	.img-testim{
+		width: 100%;
+	}
 }
 
 nav, footer, header {
@@ -171,6 +185,7 @@ div.col-2>p{
 .footer-nav{
 	padding: 2% 0;
 	font-size: .9rem;
+	width: 95%;
 }
 .no-margin{
 	margin: 0;
@@ -289,6 +304,7 @@ main h5{
 #PricingPlan{
 	margin-top: 7rem;
 	margin-bottom: 7rem;
+
 }
 #PricingPlan li{
 	padding: .5rem;
@@ -345,11 +361,12 @@ footer.home-footer hr{
 footer.home-footer .toTop{
 	background-color: white;
 	color: #0f7bff;
+  top: 363%;
 }
 
 .twit-slide{
 	margin-top: 2rem;
-	margin-left: 2rem;
+	margin-left: 1rem;
 	margin-bottom: 2rem;
 }
 
@@ -372,7 +389,18 @@ footer.home-footer .toTop{
 	padding-right:.2rem;
 	background-color: #0f7bff;
 }
-
+input.search-home::-moz-placeholder{
+	color: white !important;
+}
+input.search-home::-ms-input-placeholder{
+	color: white !important;
+}
+input.search-home::-webkit-input-placeholder{
+	color: white !important;
+}
+.slider-home{
+	margin-top: 7rem;
+}
 
 
 

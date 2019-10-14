@@ -18,7 +18,7 @@
 				<div class="navbar brand pt-0">
 					<h2><a class="nav-link logo btn-primary logo-homepage" href="index.html">AppSon</a><h2>
 				</div>	
-				<ul class="nav justify-content-end position-relative nav-align">
+				<ul class="nav justify-content-start justify-content-md-end position-relative nav-align">
 					<li class="nav-item">
 						<a class="nav-link active" href="#">HOME</a>
 					</li>
@@ -79,7 +79,7 @@
 						<h5 class="pb-2 font-medium">Analysis</h5>
 						<p class="pb-4 text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione dolores consequatur, eos sapiente in pariatur tempore.</p>
 					</div>
-					<div class="col-12 col-md-4 col-xl-4 shadow-sm bg-white text-center mx-4 feautures-card-2 rounded">
+					<div class="col-12 col-md-4 col-xl-4 shadow-sm bg-white text-center mx-auto mx-xl-4 feautures-card-2 rounded">
 						<img src="img/features-icon-2.png" class="py-4" alt="Features icon 2">
 						<h5 class="pb-2 font-medium">Clean Design</h5>
 						<p class="pb-4 text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione dolores consequatur, eos sapiente in pariatur tempore.</p>
@@ -163,7 +163,7 @@
 			</div>
 		</div>
 
-		<div id="PricingPlan">
+		<div id="PricingPlan" class="mx-auto px-auto">
 			<div class="container">
 				<div class="row flex-xl-nowrap justify-content-md-center">
 					<div class="col-12 col-md-9 col-xl-4 mb-4 mb-lg-0 align-self-center mr-4">
@@ -232,24 +232,25 @@
 			</div>
 		</div>
 
-		<div id="Testimonials" class="bg-light-aquamarine">
+		<div id="Testimonials" class="bg-light-aquamarine overflow-hidden">
 			<div class="container-fluid">
-				<div class="row">
-					<div class="col-12 col-xl-4">
-						<img src="img/content/testimonials-img.png" class="position-relative">
+				<div class="row m-auto overflow-hidden">
+					<div class="col-12 col-xl-4 p-0">
+						<img src="img/content/testimonials-img.png" class="position-relative img-testim">
 					</div>
-					<div class="col-12 col-xl-5 offset-2">
-						<h3>Trusted By More Than 55M People</h3>
-						<div class="row flex-nowrap">
+					<div class="col-12 col-xl-5 offset-xl-2 p-0 slider-home">
+						<h3 class="ml-4">Trusted By More Than 55M People</h3>
+						<div class="row flex-nowrap d-none d-sm-flex m-auto">
 							<div id="twits" class="carousel slide" data-ride="carousel">
-								<ol class="carousel-indicators">
+								<ol class="carousel-indicators ml-sm-5 ml-md-4">
 								<li data-target="#twits" data-slide-to="0" class="active"></li>
 								<li data-target="#twits" data-slide-to="1"></li>
 								<li data-target="#twits" data-slide-to="2"></li>
 							</ol>
+							<div class="col-12 mb-4">
 								<div class="carousel-inner">
 									<div class="carousel-item active">
-										<div class="row">
+										<div class="row m-auto  justify-content-center justify-content-md-start">
 											<div class="col-5 col-xl-5 p-3 shadow rounded bg-white twit-slide">
 												<div class="row">
 													<div class="col-6">
@@ -277,8 +278,8 @@
 										</div>
 									</div>
 									<div class="carousel-item">
-										<div class="row">
-											<div class="col-5 p-3 shadow rounded bg-white twit-slide">
+										<div class="row m-auto">
+											<div class="col-5 col-xl-5 p-3 shadow rounded bg-white twit-slide">
 												<div class="row">
 													<div class="col-6">
 														<p class="h5">Raisa1 Moni</p>
@@ -305,8 +306,8 @@
 										</div>
 									</div>
 									<div class="carousel-item">
-										<div class="row">
-											<div class="col-5 p-3 shadow rounded bg-white twit-slide">
+										<div class="row m-auto">
+											<div class="col-5 col-xl-5 p-3 shadow rounded bg-white twit-slide">
 												<div class="row">
 													<div class="col-6">
 														<p class="h5">Raisa1 Moni</p>
@@ -332,21 +333,20 @@
 											</div>
 										</div>
 									</div>
+									</div>
 								</div>
 							</div>
 						</div>
-							   
+						</div>	   
 
-										
-
-
-
-							
-						</div>
+						
 					</div>
 				</div>
 			</div>
 		</div>
+
+			
+
 
 			
 
@@ -444,7 +444,7 @@
 
 							<form action="#">
 								<div class="input-group">
-									<input class="form-control form-control-lg badge-pill border-white bg-transparent" type="email" name="home-email" placeholder="Enter Your Email">
+									<input class="form-control form-control-lg badge-pill border-white bg-transparent search-home" type="email" name="home-email" placeholder="Enter Your Email">
 									<div class="input-group-prepend">
 										<button type="submit" class="btn btn-white search shadow font-bold">SUBSCRIBE</button>
 									</div>
@@ -456,8 +456,8 @@
 			</div>
 			<div class="container-fluid">
 				<hr class="w-100">
+				
 			</div>
-			<div class="container">
 		<div class="container footer-nav">
 			<div class="row">
 				<div class="col-12 col-xl-4">
@@ -473,8 +473,8 @@
 					<a href="#">Help</a>&nbsp
 				</div>
 			</div>
+			<a href="#top" class="btn btn-primary position-absolute toTop"><i class="fas fa-arrow-up"></i></a>
 		</div>
-			<a href="#top" class="btn btn-primary toTop position-absolute"><i class="fas fa-arrow-up"></i></a>
 		</footer>
 	</div>
    	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"crossorigin="anonymous"></script>
