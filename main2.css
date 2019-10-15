@@ -22,7 +22,7 @@
 	footer.home-footer .toTop{
 	background-color: white;
 	color: #0f7bff;
-  top: 323%;
+	margin-top: 16rem;
 }
 
 }
@@ -36,6 +36,9 @@
 	.img-testim{
 		width: 100%;
 	}
+}
+html{
+	overflow-x: hidden;
 }
 
 nav, footer, header {
@@ -58,8 +61,9 @@ body{
   color: white;
 }
 .toTop{
-	right: 5%;
-	top: 99.3%;
+	margin-top: auto;
+  left: 100%;
+  bottom: -30%;
 }
 .header-home{
 	background-color: #f5fcfd !important;;
@@ -358,10 +362,13 @@ footer.home-footer button.btn-white{
 footer.home-footer hr{
 	border-color: white;
 }
-footer.home-footer .toTop{
+footer.home-footer a.toTop{
 	background-color: white;
 	color: #0f7bff;
-  top: 363%;
+	bottom: 5%;
+	
+	
+ 
 }
 
 .twit-slide{
