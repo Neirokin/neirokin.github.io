@@ -8,16 +8,13 @@
 		margin-left: 10%;
 	}
 	#btn-SignUp{
-		margin: 0 auto;
-		margin-right: 47%;
+    margin-left: auto;
+		margin-right: 35%;
 	}
 	.footer-nav{
 		font-size: 0.9rem;
 		margin-left: 4%;
 
-	}
-	div.features-card-2{
-		top: 50rem !important;
 	}
 	footer.home-footer .toTop{
 	background-color: white;
@@ -35,6 +32,21 @@
 @media (max-width: 992px){
 	.img-testim{
 		width: 100%;
+	}
+}
+@media (max-width: 766px){
+	.messaging{
+	  margin-top: 6rem;
+  }
+	ul.nav {
+		margin: inherit auto;
+	}
+
+}
+@media (min-width: 576px) and (max-width: 766px){
+		#btn-SignUp{
+		margin-left: auto;
+		margin-right: 50%;
 	}
 }
 html{
@@ -71,7 +83,15 @@ body{
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-size: cover;
-	padding-bottom: 4.9rem;
+
+}
+.img-mt-10{
+	margin-top: 7rem;
+}
+.bg-device{
+	background:url(img/device.png) no-repeat;
+	background-position-x: 79px;
+	padding-bottom: 33.1rem;
 }
 footer a{
 	color: #929292;
@@ -110,7 +130,7 @@ a:hover{
 	background-color: #2274ee;
 }
 .mg-SignUp{
-	margin-left: 60%;
+	margin-left: 30%;
 }
 .nav-align{
 	right: 13%;
@@ -269,7 +289,7 @@ main h5{
 	margin-top: 6rem;
 }
 .btns-home{
-	margin-bottom: 6rem;
+	margin-bottom: 0rem;
 }
 .feautures-card-2{
 	top: 3rem;
@@ -352,9 +372,13 @@ input::-webkit-input-placeholder{
 	background-color: white;
 	color: #0f7bff
 }
+.btn-white:hover{
+	color: #0063dd;
+}
 footer.home-footer button.btn-white{
 	font-size: 1rem;
-	padding-right: 6rem;
+	padding-right: 7rem;
+	padding-left: 2rem;
 }
 #home-email{
 	margin-bottom: 7rem;
@@ -366,9 +390,6 @@ footer.home-footer a.toTop{
 	background-color: white;
 	color: #0f7bff;
 	bottom: 5%;
-	
-	
- 
 }
 
 .twit-slide{
@@ -396,7 +417,13 @@ footer.home-footer a.toTop{
 	padding-right:.2rem;
 	background-color: #0f7bff;
 }
+input.search-home{
+	padding-left: 5%;
+	padding-top: 5%;
+	padding-block: 5%;
+}
 input.search-home::-moz-placeholder{
+	font-weight: 500;
 	color: white !important;
 }
 input.search-home::-ms-input-placeholder{
@@ -408,8 +435,17 @@ input.search-home::-webkit-input-placeholder{
 .slider-home{
 	margin-top: 7rem;
 }
-
-
+footer.other{
+	margin-top: 7rem;
+}
+.home-btn-download{
+	border-block-color: #0063dd;
+	color: #0063dd;
+}
+.home-btn-download:hover{
+	background-color: #0063dd;
+	border-color: #0063dd;
+}
 
 
 
